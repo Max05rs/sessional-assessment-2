@@ -22,7 +22,8 @@ Http.onreadystatechange = () => {
 
 Http.send()
 
-function post(){
+function post(e){
+    e.preventDefault()
    const output = `<div class="card size" style="width: 18rem;">
     <a  href=${document.getElementById("url").value} target="_blank"><img src="${document.getElementById("ThumbnailUrl").value}" class="card-img-top size" alt="..."></a>
 </div>
