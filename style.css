@@ -27,3 +27,8 @@ h1{
     height: 150px;
     width: 150px;
 }
+
+.darkness {
+    background-color: orange;
+    height: 10rem;
+}
